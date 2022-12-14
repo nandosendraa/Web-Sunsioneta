@@ -1,0 +1,66 @@
+.inicio{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.flecha img{
+    margin-top: 10rem;
+    width: 5rem;
+}
+
+.text-img p{
+    margin: 0 14.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.telefonia{
+    background-color: #151617;
+    color: white;
+    padding: 4rem 0rem;
+}
+
+.telefonia h3{
+    text-align: left;
+}
+
+.telefonia a{
+    text-decoration: none;
+    color: white;
+}
+
+.telefonia button{
+    border: white 2px solid;
+}
+
+.cercle {
+    padding-top: 3.8rem;
+    padding-left: 2.3rem;
+    background-image: url("../img/cercle.png");
+    background-repeat: no-repeat;
+    height: 10rem;
+    margin-left: 19rem;
+}
+
+.ofertes img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.ofertes{
+    padding-top: 2rem;
+}
+
+.ofertes button{
+    margin-top: 4rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+
+main{
+    text-align: center;
+}
+

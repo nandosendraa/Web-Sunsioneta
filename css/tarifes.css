@@ -1,0 +1,33 @@
+.inici{
+    border-top: 2px black solid;
+    color: white;
+    background-color: #2f3031;
+    text-align: center;
+}
+
+.inici p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tarifa{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.tarifa p{
+    margin-bottom: 1rem;
+}
+
+.ultim{
+    border-bottom: 0;
+}
+
+.text{
+    text-align: left;
+}
+
+.boto{
+    text-align: right;
+}
