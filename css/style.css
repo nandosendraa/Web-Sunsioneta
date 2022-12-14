@@ -4,6 +4,11 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.inicio{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 .logo img{
     margin-top: 0.5rem;
     margin-left: -9rem;
@@ -26,6 +31,47 @@
 .telefonia{
     background-color: #151617;
     color: white;
+    padding: 4rem 0rem;
+}
+
+.telefonia h3{
+    text-align: left;
+}
+
+.telefonia a{
+    text-decoration: none;
+    color: white;
+}
+
+.telefonia button{
+    border: white 2px solid;
+}
+
+.cercle {
+    padding-top: 3.8rem;
+    padding-left: 2.3rem;
+    background-image: url("../img/cercle.png");
+    background-repeat: no-repeat;
+    height: 10rem;
+    margin-left: 19rem;
+}
+
+.ofertes img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.ofertes{
+    padding-top: 2rem;
+}
+
+.ofertes button{
+    margin-top: 4rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 header h1{
@@ -52,7 +98,7 @@ nav a{
     font-weight: bold;
 }
 
-nav a:hover{
+a:hover{
     color: blueviolet;
 }
 main{
@@ -67,6 +113,6 @@ button{
     background-color: blueviolet;
 }
 
-button :focus{                                  /*no funciona*/
+button :hover{                                  /*no funciona*/
     background-color: rgb(172, 82, 255);
 }
