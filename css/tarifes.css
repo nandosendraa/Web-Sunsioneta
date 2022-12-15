@@ -1,4 +1,6 @@
 .inici{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-top: 2px black solid;
     color: white;
     background-color: #2f3031;
@@ -12,6 +14,8 @@
 }
 
 .tarifa{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     border-bottom: 2px solid black;
 }
