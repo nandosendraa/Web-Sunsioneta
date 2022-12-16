@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/tenda.css">
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/template_grid3.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-        </style> 
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
-            </style> 
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+    </style>
     <title>Tenda</title>
 </head>
+
 <body>
     <header>
         <div class="container-fluid">
@@ -26,7 +28,11 @@
                     <img src="img/titol.png" alt="titol">
                 </div>
                 <div class="col-2 usuario">
-                    <a href="login.html"><img src="img/usuario-de-perfil.png" alt="usuario"></a>
+                    <div>
+                        <img class="carro" src="img/carrito.png" alt="usuario">
+                        <a href="login.html"><img src="img/usuario-de-perfil.png" alt="usuario"></a>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -47,8 +53,108 @@
     </nav>
     <main>
         <div class="container">
-            <div class="row">
+            <div class="row fila">
+                <div class="col-12 cercador">
+                    <input type="text" placeholder=" INTRODUEIX NOM DE ARTICLE">
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-2" ></div>
+                <div class="col-8 cesta"hidden>
+                    <h3 class="titolCist">CISTELLA</h3>
+                    <hr>
+                    <div class="article">
+                        <img src="img/portatil.jpg" alt="">
+                        <p class="titolArticle">LOREM IPSUM <button class="borrar">ELIMINAR</button></p>
+                        <p class="preuCist">499,99€</p>
+                    </div>
+                    <hr>
+                    <div class="article">
+                        <img src="img/portatil.jpg" alt="">
+                        <p class="titolArticle">LOREM IPSUM <button class="borrar">ELIMINAR</button></p>
+                        <p class="preuCist">499,99€</p>
+                    </div>
+                    <hr>
+                    <p class="total">TOTAL: 999,98€</p>
+                    <button class="reservar">RESERVAR PRODUCTES</button>
+                </div>
                 <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 producte">
+                    <img src="img/portatil.jpg" alt="portatil">
+                    <p class="descripcio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="preu">499,99 €</p>
+                    <button type="button">AFEGIR CISTELLA</button>
+                </div>
+            </div>
+        </div>
+        <div class="container paginador">
+            <div class="row">
+                <div class="col-4 flecha-dreta"><img src="img/flecha-izquierda.png" alt="esquerre"></div>
+                <div class="col-1"><p>1</p></div>
+                <div class="col-1"><p>2</p></div>
+                <div class="col-1"><p>3</p></div>
+                <div class="col-1"><p>4</p></div>
+                <div class="col-4 flecha-esquerre"><img src="img/flecha-correcta.png" alt="esquerre"></div>
             </div>
         </div>
     </main>
@@ -58,10 +164,12 @@
                 <div class="col-6 esquerre">
                     <h3>SUNSIONETA INFORMATICA</h3>
                     <div class="flex">
-                        <img src="img/llamada-telefonica.png" alt="telefono"> <h3>666777888</h3>
+                        <img src="img/llamada-telefonica.png" alt="telefono">
+                        <h3>666777888</h3>
                     </div>
                     <div class="flex">
-                        <img src="img/ubicacion.png" alt="ubicacion"> <h3>AVD, BLASCO IBAÑEZ 1, PEGO (ALACANT)</h3>
+                        <img src="img/ubicacion.png" alt="ubicacion">
+                        <h3>AVD, BLASCO IBAÑEZ 1, PEGO (ALACANT)</h3>
                     </div>
                 </div>
                 <div class="col-6 dreta">
@@ -76,4 +184,5 @@
         </div>
     </footer>
 </body>
+
 </html>
