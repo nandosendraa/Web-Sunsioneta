@@ -1,0 +1,64 @@
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+h3{
+    margin-top: 0.4rem;
+}
+
+.valoracio{
+    border: 2px solid rgba(128, 128, 128, 0.452);
+    background-color: rgb(223, 223, 223);
+    border-radius: 1rem;
+    padding: 2rem 0.5rem;
+    margin-top: 2rem;
+}
+
+.valoracio p{
+    margin-top: 0.7rem;
+}
+
+.valoracio img{
+    height: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.titol-valoracio{
+    text-align: right;
+}
+
+.form{
+    border: 2px solid rgba(128, 128, 128, 0.452);
+    background-color: rgb(223, 223, 223);
+    border-radius: 1rem;
+    padding: 2rem 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.boto{
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.textarea{
+    margin-top: 1rem;
+}
+
+.paginador{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.paginador img{
+    width: 1rem;
+}
+
+#estrelles{
+    height: 2rem;
+    margin-top: -1.8rem;
+    float: right;
+}
