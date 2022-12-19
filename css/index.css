@@ -9,7 +9,7 @@
 }
 
 .text-img p{
-    margin: 1rem 14.5rem;
+    margin: 1rem 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -32,13 +32,16 @@
     border: white 2px solid;
 }
 
-.cercle {
-    padding-top: 3.8rem;
-    padding-left: 2.3rem;
-    background-image: url("../img/cercle.png");
-    background-repeat: no-repeat;
-    height: 10rem;
-    margin-left: 19rem;
+.cercle{
+    background-color: blueviolet;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 3rem;
+
+}
+
+.cercle h3{
+    text-align: center;
 }
 
 .ofertes img{
