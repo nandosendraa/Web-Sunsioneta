@@ -70,7 +70,7 @@ header{
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
-    background-color: blueviolet;
+    background-image: linear-gradient(153deg, blueviolet 0%, #645a88 95%);
 }
 
 header img{
@@ -93,7 +93,7 @@ button{
     color: white;
     border-radius: 0.5rem;
     border: black 2px solid;
-    background-color: blueviolet;
+    background-image: linear-gradient(153deg, blueviolet 0%, #645a88 95%);
 }
 
 button :hover{                                  /*no funciona*/
@@ -101,5 +101,5 @@ button :hover{                                  /*no funciona*/
 }
 
 a:hover{
-    color: blueviolet;
+    color:      linear-gradient(153deg, blueviolet 0%, #645a88 95%);;
 }
