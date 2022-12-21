@@ -101,5 +101,5 @@ button :hover{                                  /*no funciona*/
 }
 
 a:hover{
-    color:      linear-gradient(153deg, blueviolet 0%, #645a88 95%);;
+    color: blueviolet;
 }
