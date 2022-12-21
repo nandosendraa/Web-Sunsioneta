@@ -30,9 +30,18 @@ h2{
     border-bottom: 0;
 }
 
+.paginador span{
+    background-color: rgb(114, 114, 114);
+    padding: 0.2rem;
+}
+
 .paginador{
+    display: inline;
     margin-top: 2rem;
     text-align: center;
+}
+.paginador p{
+    word-spacing: 3rem;
 }
 
 .paginador img{
@@ -52,7 +61,22 @@ h2{
     background-size: 1.5rem;
     background-position-y: 0.35rem;
     background-position-x: 67.3rem;
-    
+}
+
+.diagnostic{
+    background-color: rgb(255, 130, 130);
+}
+
+.reparacio{
+    background-color: rgb(255, 255, 122);
+}
+
+.arreplegar{
+    background-color: rgb(117, 255, 117);
+}
+
+.entregat {
+    background-color: rgb(196, 132, 255);
 }
 
 
