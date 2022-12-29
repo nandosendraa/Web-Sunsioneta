@@ -79,4 +79,14 @@ h2{
     background-color: rgb(196, 132, 255);
 }
 
+@media only screen and (max-width: 767px) {
+    .detalls p{
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
 
+    .cercador input{
+        width: 21.5rem;
+        background-position-x: 19rem;
+    }
+}
