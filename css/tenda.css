@@ -95,10 +95,18 @@
     margin-top: 1rem;
 }
 
+.paginador span{
+    background-color: rgb(114, 114, 114);
+    padding: 0.2rem;
+}
+
 .paginador{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    display: inline;
+    margin-top: 2rem;
     text-align: center;
+}
+.paginador p{
+    word-spacing: 3rem;
 }
 
 .paginador img{
