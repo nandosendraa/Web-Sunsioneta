@@ -87,3 +87,17 @@ main{
     text-align: center;
 }
 
+@media only screen and (max-width: 767px) {
+    .inicio img{
+        width: 15rem;
+    }
+
+    .flecha img{
+        width: 2rem;
+        margin-top: 0;
+    }
+
+    .cercle h3{
+        margin-left: 4rem;
+    }
+}
