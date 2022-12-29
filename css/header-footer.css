@@ -17,6 +17,10 @@ nav a{
     font-weight: bold;
 }
 
+.menu{
+    display: none;
+}
+
 .titol img{
     width: 14rem;
 }
