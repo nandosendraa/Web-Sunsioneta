@@ -114,8 +114,7 @@ a:hover{
         margin-top: 1rem;
         margin-left: 1rem;
     }
-
-    .usuario img{
+    .usuario img{   
         margin-top: -2rem;
         margin-left: 12rem;
     }
@@ -128,6 +127,7 @@ a:hover{
         margin-left: 7rem;
         margin-right: 9rem;
     }
+
     .social{
         padding-right: 1rem;
     }
