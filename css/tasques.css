@@ -60,3 +60,19 @@ h2{
     margin-top: 1rem;
     padding: 0.5rem;
 }
+
+@media only screen and (max-width: 767px) {
+    .borde-dreta{
+        border: 0;
+        border-bottom: 1px black solid;
+    }
+    
+    .borde-esquerre{
+        border: 0;
+        border-top: 1px solid black;
+    }
+
+    .nova-tasca{
+        margin-left: 1.5rem;
+    }
+}
