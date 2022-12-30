@@ -53,3 +53,14 @@ h2{
     height: 20rem;
 }
 
+@media only screen and (max-width: 767px) {
+    .degradat img{
+        height: 12rem;
+        margin-bottom: 1rem;
+    }
+
+    .servei img{
+        height: 12rem;
+    }
+}
+
