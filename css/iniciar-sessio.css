@@ -1,0 +1,33 @@
+.text{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.card-main{
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.card{
+    border: 1px rgb(201, 201, 201) solid;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4rem 0;
+    font-size: 1.2rem;
+}
+
+input{
+    border-radius: 0.5rem;
+    height: 2rem;
+    border-color: blueviolet;
+}
+
+.card p{
+    padding: 2rem 0;
+}
+
+.registre{
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 8rem;
+}
