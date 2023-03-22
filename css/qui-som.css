@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.cuatre p{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.cuatre h4{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+.bola{
+    padding-top: 2rem;
+}
+
+.bola img{
+    float: right;
+    width: 3rem;
+}
+
+.card-main{
+    margin-top: 1rem;
+}
+.card{
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.mapa{
+    padding-top: 4rem;
+}
