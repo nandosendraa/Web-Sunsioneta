@@ -1,0 +1,50 @@
+.card{
+    border: 1px rgb(201, 201, 201) solid;
+    border-radius: 0.5rem;
+}
+
+.card-main{
+    padding-top: 2rem;
+}
+
+.text{
+    border-left: 2px solid rgb(201, 201, 201);
+}
+
+img{
+    width: 100%;
+}
+
+.div-boto{
+    padding-top: 2rem;
+    padding-right: 1rem;
+    text-align: end;
+}
+
+.boto{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    border: 2px black solid;
+    border-radius: 0.5rem;
+    background-color: blueviolet;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+    color: blueviolet;
+}
+
+h4{
+    font-size: 1.5rem;
+    padding-top: 4rem;
+}
+
+p{
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
