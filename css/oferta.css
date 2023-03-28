@@ -48,3 +48,53 @@ p{
     padding-top: 4rem;
     padding-left: 1rem;
 }
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+
+    h2{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 1rem;
+        padding: 0;
+    }
+    .card img{
+        border-bottom: 1px solid black;
+    }
+    p{
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .boto{
+        padding: 0.5rem;
+        
+    }
+    .div-boto{
+        margin-bottom: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For tablets and */
+    h2{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 1rem;
+        padding: 0;
+    }
+    p{
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .boto{
+        padding: 0.5rem;
+        
+    }
+    .div-boto{
+        margin-bottom: 1rem;
+    }
+  }
