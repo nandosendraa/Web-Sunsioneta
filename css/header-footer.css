@@ -8,7 +8,7 @@ nav{
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
-    background-color: #195E80;
+    background-color: #272727;
 }
 nav a{
     margin: 0rem 4rem;
@@ -74,8 +74,7 @@ header{
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
-    background-color: #784170;
-   /* background-image: linear-gradient(153deg, blueviolet 0%, #645a88 95%);*/
+    background-image: linear-gradient(153deg, blueviolet 0%, #645a88 95%);
 }
 
 header img{
@@ -85,7 +84,7 @@ header img{
 footer{
     margin-top: 1rem;
     color: white;
-    background-color: #10415F;
+    background-color: #292929;
     font-size: 0.8rem;
 }
 
