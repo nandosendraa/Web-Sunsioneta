@@ -37,3 +37,17 @@ header img{
 footer img{
     width: 20rem;
 }
+
+
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For tablets and */
+
+    .usuario{
+        
+    }
+  }

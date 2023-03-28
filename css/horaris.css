@@ -2,7 +2,7 @@
     text-align: center;
 }
 .verd{
-    background-color: rgb(0, 255, 0);
+    background-color: #C69FBB;
 }
 
 .icono img{
@@ -29,7 +29,7 @@ th,td{
 }
 
 .negre{
-    background-color: rgb(31, 31, 31);
+    background-color: #0F405D;
     color: white;
 }
 
