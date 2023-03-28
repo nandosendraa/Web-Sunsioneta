@@ -38,3 +38,29 @@ h1{
 .mapa{
     padding-top: 4rem;
 }
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .mapa img{
+        width: 22rem;
+    }
+    .mapa{
+        padding: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For tablets and */
+    .mapa img{
+        width: 28rem;
+        padding-top: 10rem;
+    }
+
+    .card-main{
+        padding: 0!important;
+    }
+
+    h4{
+        font-size: 1rem!important;
+    }
+  }
