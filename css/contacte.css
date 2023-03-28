@@ -22,6 +22,10 @@ input{
     border-color: blueviolet;
 }
 
+textarea{
+    border-color: blueviolet;
+}
+
 .card p{
     padding: 2rem 0;
 }
@@ -51,3 +55,43 @@ th , td{
     border: 1px black solid;
     padding: 1rem;
 }
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .card-main{
+        padding: 0;
+    }
+    input{
+        width: 15rem;
+    }
+
+    textarea{
+        width: 15rem;
+        height: 10rem;
+    }
+
+    table{
+        font-size: 0.5rem;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For tablets and */
+
+    .card-main{
+        padding: 0;
+    }
+    input{
+        width: 9rem;
+    }
+
+    textarea{
+        width: 9rem;
+        height: 10rem;
+    }
+
+    table{
+        font-size: 0.5rem;
+    }
+
+  }
